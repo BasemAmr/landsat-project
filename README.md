@@ -31,34 +31,22 @@
    npm run build
    ```
 
-## Back-End (python)
+## Back-End (nodeJs)
 
 ### تفاصيل التثبيت
 
 1. الانتقال إلى مجلد المشروع:
    ```
-   cd Back-End (python)
+   cd Back-End (node js)
+   ```
+   ```
+   npm install
    ```
 
-2. إعداد البيئة الافتراضية (اختياري ولكن موصى به):
+2. تثبيت التبعيات:
    ```
-   python -m venv venv
-   source venv/bin/activate  # على نظام Unix
-   # أو
-   venv\Scripts\activate  # على نظام Windows
+   node index.js
+
    ```
 
-3. تثبيت التبعيات:
-   ```
-   pip install -r requirements.txt
-   ```
-
-4. تشغيل خادم Flask:
-   ```
-   flask run
-   ```
-   أو
-   ```
-   python main_server.py
-   ```
-
+3. تشغيل خادم express:

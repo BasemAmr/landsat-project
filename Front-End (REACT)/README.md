@@ -18,10 +18,8 @@ cd landsat-project
 ```
 
 ### 2. Install Dependencies
-Next, install the project dependencies:
-
-```sh
-npm install $(cat requirements.txt | tr '\n' ' ')
+Next, install the project dependency 
+npm install 
 ```
 
 

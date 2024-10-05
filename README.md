@@ -1,35 +1,64 @@
-# Landsat Project
+# إعداد المشروع
 
-## Overview
-This project is a web application for visualizing Landsat data using React, Vite, and various other libraries such as Chart.js and Leaflet.
+تم تنفيذ هذا المشروع بواسطة:
+- محمد عمرو السيد
+- باسم عمرو السيد
+- عبدالرحمن عمرو السيد
 
-## Prerequisites
-Before you begin, ensure you have met the following requirements:
-- You have installed [Node.js](https://nodejs.org/) (which includes npm).
-- You have a terminal or command prompt available.
+## Front-End (REACT)
 
-## Getting Started
+### تفاصيل التثبيت
 
-### 1. Clone the Repository
-First, clone the repository to your local machine:
-```sh
-git clone https://github.com/BasemAmr/landsat-project.git
-cd landsat-project
-```
+1. الانتقال إلى مجلد المشروع:
+   ```
+   cd Front-End (REACT)
+   ```
 
-### 2. Install Dependencies
-Next, install the project dependencies:
-
-```sh
-npm install $(cat requirements.txt | tr '\n' ' ')
-```
+2. تثبيت التبعيات:
+   باستخدام npm:
+   ```
+   npm install
+   ```
 
 
-### 3. Run the Development Server
-Finally, start the development server:
+3. تشغيل الواجهة الأمامية للتطوير:
+   ```
+   npm start
+   ```
 
-```sh
-npm run dev
-```
+4. بناء نسخة الإنتاج:
+   ```
+   npm run build
+   ```
 
-This will start the application, and you can view it in your browser
+## Back-End (python)
+
+### تفاصيل التثبيت
+
+1. الانتقال إلى مجلد المشروع:
+   ```
+   cd Back-End (python)
+   ```
+
+2. إعداد البيئة الافتراضية (اختياري ولكن موصى به):
+   ```
+   python -m venv venv
+   source venv/bin/activate  # على نظام Unix
+   # أو
+   venv\Scripts\activate  # على نظام Windows
+   ```
+
+3. تثبيت التبعيات:
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. تشغيل خادم Flask:
+   ```
+   flask run
+   ```
+   أو
+   ```
+   python main_server.py
+   ```
+
